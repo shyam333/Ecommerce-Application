@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="helloworld.demo.com.ecommerceapplication.MainActivity"
+    android:background="@drawable/bg">
+
+    <CheckBox
+        android:id="@+id/chk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtpass"
+        android:layout_alignStart="@+id/txtpass"
+        android:layout_below="@+id/txtpass"
+        android:textColor="#FFFFFF"
+        android:text="SaveDetails" />
+
+    <View
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:alpha="0.6"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="LOGIN"
+        android:fontFamily="sans-serif"
+        android:textSize="70sp"
+        android:id="@+id/textView"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="TO"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:id="@+id/textView2"
+        android:layout_marginTop="72dp"
+        android:layout_alignTop="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="YOUR ACCOUNT"
+        android:fontFamily="sans-serif"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/txtemail"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:drawablePadding="10dp"
+        android:hint="Enter User Name"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#cccccc"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:drawablePadding="10dp"
+        android:singleLine="true"
+        android:hint="Enter User Passwrod"
+        android:textSize="20sp"
+        android:textColorHint="#cccccc"
+        android:textColor="#FFFFFF"
+        android:id="@+id/txtpass"
+        android:layout_below="@+id/txtemail"
+        android:layout_alignLeft="@+id/txtemail"
+        android:layout_alignStart="@+id/txtemail"
+        android:layout_alignRight="@+id/txtemail"
+        android:layout_alignEnd="@+id/txtemail" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/chk"
+        android:text="SIGN IN"
+        android:fontFamily="sans-serif"
+        android:textSize="20sp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Are you new? Sign up now."
+        android:fontFamily="sans-serif"
+        android:id="@+id/btnreg"
+        android:textColor="#ffffff"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/btn"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
